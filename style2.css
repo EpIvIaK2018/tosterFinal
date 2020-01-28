@@ -1,0 +1,163 @@
+.main_block{
+margin-left:-8px;
+margin-top:-22px;
+width: 1920px;
+height: 50px;
+background: rgb(38, 39, 36);
+color: rgb(250, 250, 250); /* Цвет символа */
+font-size: 100%; /* Размер шрифта */
+text-align: center;	
+}
+body{
+background-color: rgba(0, 0, 0, 0.178); 
+}
+
+div.second_block {
+background: rgba(200, 0, 240, 1);
+color: rgba(0, 0, 0, 0.432);
+position: absolute; 
+width: 220px;
+height: 100%;
+top: 5.3%;
+left: 12%;
+font-style: inherit;
+border-radius: 15px;
+padding: 15px;
+transform: translate();
+text-align:center;
+}
+
+div.main{
+background: rgb(240, 240, 240);
+width: 1020px;
+position: relative;  
+top: 12%;
+left: 25%;
+font-style: inherit;
+border-style: solid;
+border-radius: 10px;
+border-width: 1px;
+padding: 10px;
+font-size: 15px;
+}
+    
+textarea{ 
+resize: none;
+width: 1014px;
+color: black;
+font-size: 18px;
+}
+
+hr{
+    color: rgb(255, 0, 0);
+    size : 13px;
+}
+
+.main h5{
+    text-shadow: unset;
+    position: relative; /* Относительное позиционирование */
+    top: 20px; /* Сдвигаем вниз */
+}
+div.main div.date {
+    color: rgb(0, 0, 0);
+    margin-top: 112;
+    position: relative;
+    top: -3px;
+    left: -115px;
+}
+
+div.main div.main_message {
+    position: relative;
+    bottom: 155px;
+    width: 880px;
+    font-size: 18px;
+    font-style: normal;
+    white-space: pre-wrap;
+    margin-left: 125px;
+    margin-right: 90px;
+    margin-top: 40px;
+    font-weight: bold;
+    border-color: rgba(0, 0, 0, 0.671);
+    color: rgb(48, 48, 48);
+}
+div.main #mainname {
+    font-size: 20px;
+    font-stretch: extra-expanded;
+    position: relative;
+    top: -8px;
+    float: left;
+    left: -4.3em;
+    color: black;
+}
+.button {
+    float:right;
+    right: 100;
+    height: 100%;
+    vertical-align: 50%;
+    border-radius: 5px;
+}
+
+div.main #img{
+    border-width: 1px;
+    border: solid;
+    position: relative;
+    bottom: 2.3em;
+    left: -0.2em;
+}
+
+div.main .message_footer{
+    position: relative;
+    bottom: -0.2em;
+    width: 1015px;
+    background-color: rgb(0, 149, 194);
+    height: 24px; 
+    line-height:24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-style: solid;
+}
+div.main .message_footer:hover {
+    box-shadow: 3px 0px 15px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+strong{
+    font-family: Times, serif; /* Шрифт с засечками */ 
+    font-style: italic; /* Курсивное начертание текста */
+    color: rgb(243, 243, 243); /* Цвет текста */
+    text-decoration: none;
+}
+
+
+
+div.answer{
+    font-family: Times, serif; /* Шрифт с засечками */ 
+    font-style: normal; 
+    color: rgb(0, 0, 0); /* Цвет текста */
+    background-color: rgba(226, 226, 226, 0.74);
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    white-space: pre-wrap;
+    margin-left: 5px;
+}
+div.main #button_answer{
+    font-family: Times, serif;
+    font-size: large;
+    color: rgb(0, 0, 0); 
+    position: relative;
+    top: 130px;  
+    float: left;
+}
+#button_answer:hover {
+box-shadow: 3px 0px 15px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#link{
+    font-family: Times, serif; /* Шрифт с засечками */ 
+    font-style: solid; 
+    font-size: 28px;
+    text-decoration: none;
+}
+
